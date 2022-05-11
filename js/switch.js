@@ -97,13 +97,13 @@ function animateRole(){
 var mbTime = -50;
 function animateMb(){
 	$('.bnTitle').css('bottom',mbTime+'px');
-	mbTime+=4
+	mbTime+=3
 	if(mbTime>9){
 		clearInterval(loading)
 	}
 }
 function animateRoleMb(){
-	mbTime+=1
+	mbTime+=2
 	if(mbTime>9){
 		clearInterval(shine)
 		var mtime =-20
