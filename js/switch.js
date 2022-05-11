@@ -103,8 +103,8 @@ function animateMb(){
 	}
 }
 function animateRoleMb(){
-	mbTime+=1
-	if(mbTime>9){
+	mbTime+=5
+	if(mbTime>3){
 		clearInterval(shine)
 		var mtime =-20
 		var moveRight = setInterval(function(){
