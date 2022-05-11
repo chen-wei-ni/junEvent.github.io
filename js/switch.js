@@ -94,17 +94,18 @@ function animateRole(){
 }
 /*手機版*/
 
-var mbTime = -50;
+var mbTime = -100;
+var mbTime2 = -150;
 function animateMb(){
 	$('.bnTitle').css('bottom',mbTime+'px');
 	mbTime+=4
-	if(mbTime>9){
+	if(mbTime>10){
 		clearInterval(loading)
 	}
 }
 function animateRoleMb(){
-	mbTime+=1
-	if(mbTime>9){
+	mbTime2+=1
+	if(mbTime2>9){
 		clearInterval(shine)
 		var mtime =-20
 		var moveRight = setInterval(function(){
