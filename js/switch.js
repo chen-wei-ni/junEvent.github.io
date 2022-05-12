@@ -111,7 +111,7 @@ function animateRoleMb(){
 		$('.character').css('bottom',mtime+'px');
 		$('.character').addClass('show')
 		mtime+=4
-		if(mtime>0){
+		if(mtime>5){
 		clearInterval(moveRight)
 	}
 })
